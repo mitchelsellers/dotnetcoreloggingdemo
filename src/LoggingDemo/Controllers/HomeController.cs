@@ -5,11 +5,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using LoggingDemo.Models;
+using Microsoft.Extensions.Logging;
 
 namespace LoggingDemo.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -17,6 +25,7 @@ namespace LoggingDemo.Controllers
 
         public IActionResult Privacy()
         {
+            _logger.LogWarning("User wanted to learn about privacy!");
             return View();
         }
 
