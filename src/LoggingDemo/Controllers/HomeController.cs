@@ -25,7 +25,11 @@ namespace LoggingDemo.Controllers
 
         public IActionResult Privacy()
         {
-            _logger.LogWarning("User wanted to learn about privacy!");
+            _logger.LogWarning("{Username} visited privacy page at {Timestamp}", User.Identity?.Name, DateTime.UtcNow);
+            //Calls ToString
+            _logger.LogInformation("Request details {Request}", Request);
+            //Attempts a dump
+            _logger.LogInformation("Full User Identity Details {@Request}", User.Identity);
             return View();
         }
 

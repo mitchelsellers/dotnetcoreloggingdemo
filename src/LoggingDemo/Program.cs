@@ -19,8 +19,8 @@ namespace LoggingDemo
             //Configure SeriLog
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
-                //Change Microsoft Logging level to Information
-                .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+                //Change Microsoft Logging level to Warning
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
                 .CreateLogger();
