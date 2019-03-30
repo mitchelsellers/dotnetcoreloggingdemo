@@ -14,17 +14,21 @@ namespace LoggingDemo
 {
     public class Program
     {
+        //Build out a reference to configuration here, so we can configure logging @ Startup
+        public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .AddEnvironmentVariables()
+            .Build();
+
         public static int Main(string[] args)
         {
             //Configure SeriLog
             Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                //Change Microsoft Logging level to Warning
-                .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+                .ReadFrom.Configuration(Configuration)
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
                 .CreateLogger();
-
             try
             {
                 Log.Information("Starting web host");
