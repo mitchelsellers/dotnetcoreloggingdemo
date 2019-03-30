@@ -4,7 +4,10 @@ This repository includes code samples necessary to illustrate various options an
 
 ## Prerequisites to Running
 
-This project will create/connect to a local database for the EF Context portion of the demonstration and was built using .NET Core 2.2.  Please be sure that you have .NET Core 2.2 SDK installed
+This project will create/connect to a local database for the EF Context portion of the demonstration and was built using .NET Core 2.2.  
+
+* You will need to update the server & DB name as outlined in the appsettings.json for the database to work
+* You will need to apply the migrations using "Update-Database" from the Package Manager Console to ensure all data model elements have been added
 
 ## Commit History
 
