@@ -26,8 +26,6 @@ namespace LoggingDemo
             //Configure SeriLog
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(Configuration)
-                .Enrich.FromLogContext()
-                .WriteTo.Console()
                 .CreateLogger();
             try
             {
