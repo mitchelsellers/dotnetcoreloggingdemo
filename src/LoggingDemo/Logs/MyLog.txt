@@ -1,6 +1,23 @@
-2021-01-29 00:30:25.246 -06:00 [INF] Starting web host
-2021-01-29 00:30:42.241 -06:00 [INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
-2021-01-29 00:39:12.882 -06:00 [INF] Starting web host
-2021-01-29 00:43:34.326 -06:00 [INF] Starting web host
-2021-01-29 00:43:48.125 -06:00 [INF] User Information Microsoft.AspNetCore.Http.DefaultHttpRequest
-2021-01-29 00:43:48.134 -06:00 [INF] Full User Identity Details {"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role","$type":"ClaimsIdentity"}
+[11:31:42  INF] Starting web host
+[11:32:17  INF] Starting web host
+[11:32:18  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Request starting HTTP/2 GET https://localhost:44360/ - -
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4007ms.
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executing ViewResult, running view Index.
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executed ViewResult - view Index executed in 206.2237ms.
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 273.8993ms
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[11:32:18 cae4646f-cbc5-4147-9b04-e60b92a07c5a INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 445.7432ms
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Request starting HTTP/2 GET https://localhost:44360/Home/EntityFramework - -
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Route matched with {action = "EntityFramework", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EntityFramework() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executing action method LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) - Validation state: "Valid"
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executed action method LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1251ms.
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executing ViewResult, running view EntityFramework.
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executed ViewResult - view EntityFramework executed in 15.2908ms.
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executed action LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) in 25.7323ms
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'
+[11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Request finished HTTP/2 GET https://localhost:44360/Home/EntityFramework - - - 200 - text/html;+charset=utf-8 34.9739ms
