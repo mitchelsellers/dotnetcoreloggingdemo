@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Warning Entry Was Triggered";
+}
+
+<h1>Successfully Triggered a Warning!</h1>
+
+<p>The application has written a warning to the log stream, depending on your configuration, this value may be written to multiple locations.</p>
+
+<h3 class="mb-1">Triggering Code</h3>
+<code class="mb-2">
+    _logger.LogWarning("{Username} visited privacy page at {Timestamp}", User.Identity?.Name, DateTime.UtcNow);
+</code>
+
+<h3 class="mb-1">Expected Behavior</h3>
+<p>This will trigger a formatted output of information, by calling .ToString() on each of the values.</p>
+<p><strong>Unauthenticated User</strong></p>
+<code class="mb-2">2021-01-29 00:00:22.607 -06:00 [WRN] null visited privacy page at "2021-01-29T06:00:22.6070403Z"</code>
+<p><strong>Authenticated User</strong></p>
+<code class="mb-2">2021-01-29 00:00:22.607 -06:00 [WRN] MitchelSellers visited privacy page at "2021-01-29T06:00:22.6070403Z"</code>

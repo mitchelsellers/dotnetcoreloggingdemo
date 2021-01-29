@@ -1,0 +1,17 @@
+﻿@{
+ViewData["Title"] = "Entity Framework Logging";
+}
+
+<h1>Entity Framework Logging</h1>
+
+<p>Restricting by logging namespaces you can see as much, or little, data as you want from within EF.  These are defined using the <code>Microsoft.EntityFrameworkCore.DbLoggerCategory</code> class</p>
+
+<p>You have multiple layers inside of these.  A few common usages for logging include.</p>
+<ul>
+    <li>Microsoft.EntityFrameworkCore - This logs everything</li>
+    <li>Microsoft.EntityFrameworkCore.Database.Command - Logs every command</li>
+</ul>
+
+<div class="alert alert-warning">
+    Although many blog posts discuss the usage of custom loggers, default SeriLog configuration works without additional setup!
+</div>

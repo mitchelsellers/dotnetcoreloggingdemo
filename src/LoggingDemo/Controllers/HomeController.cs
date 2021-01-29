@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using LoggingDemo.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace LoggingDemo.Controllers
@@ -23,13 +20,31 @@ namespace LoggingDemo.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult TriggerWarning()
         {
             _logger.LogWarning("{Username} visited privacy page at {Timestamp}", User.Identity?.Name, DateTime.UtcNow);
+            return View();
+        }
+
+        public IActionResult ComplexLogging()
+        {
             //Calls ToString
-            _logger.LogInformation("Request details {Request}", Request);
+            _logger.LogInformation("User Information {User}", Request);
+
             //Attempts a dump
-            _logger.LogInformation("Full User Identity Details {@Request}", User.Identity);
+            _logger.LogInformation("Full User Identity Details {@User}", User.Identity);
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            //Commented out to avoid performance impacts of executing this on each page request
+            //_logger.LogInformation("User Request {@Request}", Request);
+            return View();
+        }
+
+        public IActionResult EntityFramework()
+        {
             return View();
         }
 
@@ -37,7 +52,7 @@ namespace LoggingDemo.Controllers
         public IActionResult Error()
         {
             _logger.LogError("Bad error happened!");
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
     }
 }

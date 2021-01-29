@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Complex Logging";
+}
+
+<h1>Successfully Triggered Complex Logging!</h1>
+
+<p>The application just wrote two separate log statements.  One with a default formatted string, the other with instructions to "dump" the data.</p>
+
+<h3 class="mb-1">Triggering Code</h3>
+<code class="mb-2">
+    _logger.LogInformation("User Information {User}", Request);
+    <br />
+    _logger.LogInformation("Full User Identity Details {@@User}", User.Identity);
+</code>
+
+<h3 class="mb-1 mt-2">Expected Behavior</h3>
+<p>One log entry will be simple and not valuable, the other will contain complex information</p>
+<p><strong>First Method</strong></p>
+<p>Although accurate, and exactly what you requested this does not really tell us anything.</p>
+<code class="mb-2">2021-01-29 00:09:40.428 -06:00 [INF] User Information Microsoft.AspNetCore.Http.DefaultHttpRequest</code>
+<p><strong>Second Method</strong></p>
+<p>More helpful!</p>
+<code class="mb-2">2021-01-29 00:09:40.438 -06:00 [INF] Full User Identity Details {"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role","$type":"ClaimsIdentity"}</code>

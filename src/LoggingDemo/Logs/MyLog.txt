@@ -1,1 +1,6 @@
-2019-03-30 00:29:58.649 -04:00 [ERR] Bad error happened!
+2021-01-29 00:30:25.246 -06:00 [INF] Starting web host
+2021-01-29 00:30:42.241 -06:00 [INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-29 00:39:12.882 -06:00 [INF] Starting web host
+2021-01-29 00:43:34.326 -06:00 [INF] Starting web host
+2021-01-29 00:43:48.125 -06:00 [INF] User Information Microsoft.AspNetCore.Http.DefaultHttpRequest
+2021-01-29 00:43:48.134 -06:00 [INF] Full User Identity Details {"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role","$type":"ClaimsIdentity"}
