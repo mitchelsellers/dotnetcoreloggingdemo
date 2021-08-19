@@ -14,6 +14,7 @@ using LoggingDemo.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 
 namespace LoggingDemo
 {
@@ -65,6 +66,19 @@ namespace LoggingDemo
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+
+            //Setup simple logging for requests
+            //app.UseSerilogRequestLogging();
+
+            //Setup Enriched simple logging
+            app.UseSerilogRequestLogging(options =>
+            {
+                // Attach additional properties to the request completion event
+                options.EnrichDiagnosticContext = (diagnosticContext, httpContext) =>
+                {
+                    diagnosticContext.Set("RequestUser", httpContext.User?.Identity.Name);
+                };
+            });
 
             app.UseRouting();
             app.UseAuthentication();

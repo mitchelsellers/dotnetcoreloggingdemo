@@ -21,3 +21,558 @@
 [11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executed action LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) in 25.7323ms
 [11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'
 [11:32:20 c6aa10ad-948b-4a63-b62a-9764193b5185 INF] Request finished HTTP/2 GET https://localhost:44360/Home/EntityFramework - - - 200 - text/html;+charset=utf-8 34.9739ms
+[10:47:52  INF] Starting web host
+[10:47:54  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[10:47:54 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Request starting HTTP/2 GET https://localhost:44360/ - -
+[10:47:54 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[10:47:54 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[10:47:54 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"
+[10:47:54 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6074ms.
+[10:47:54 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executing ViewResult, running view Index.
+[10:47:55 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executed ViewResult - view Index executed in 390.1154ms.
+[10:47:55 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 480.4494ms
+[10:47:55 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[10:47:55 be028236-5d86-4bfd-84ee-fa7544ceb308 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 543.9567ms
+[10:47:55 f7868f7b-1de7-4d3f-b29d-328350d71486 INF] Request starting HTTP/2 GET https://localhost:44360/css/site.css - -
+[10:47:55 ca2f81ba-6d57-4740-be51-edf77b801d89 INF] Request starting HTTP/2 GET https://localhost:44360/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[10:47:55 06dcf2d1-67c5-4daa-939d-004568b8cffa INF] Request starting HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+[10:47:55 a638ea94-9032-4d97-be2d-be976805b437 INF] Request starting HTTP/2 GET https://localhost:44360/lib/jquery/dist/jquery.js - -
+[10:47:55 f4de13e7-b20b-4d4d-9e20-be92ffc12080 INF] Request starting HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/css/bootstrap.css - -
+[10:47:55 ca2f81ba-6d57-4740-be51-edf77b801d89 INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\js\site.js'
+[10:47:55 f7868f7b-1de7-4d3f-b29d-328350d71486 INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\css\site.css'
+[10:47:55 ca2f81ba-6d57-4740-be51-edf77b801d89 INF] Request finished HTTP/2 GET https://localhost:44360/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 52.4071ms
+[10:47:55 f7868f7b-1de7-4d3f-b29d-328350d71486 INF] Request finished HTTP/2 GET https://localhost:44360/css/site.css - - - 200 1163 text/css 76.0258ms
+[10:47:55 f4de13e7-b20b-4d4d-9e20-be92ffc12080 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+[10:47:55 a638ea94-9032-4d97-be2d-be976805b437 INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\lib\jquery\dist\jquery.js'
+[10:47:55 06dcf2d1-67c5-4daa-939d-004568b8cffa INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'
+[10:47:55 f4de13e7-b20b-4d4d-9e20-be92ffc12080 INF] Request finished HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/css/bootstrap.css - - - 200 182626 text/css 83.0486ms
+[10:47:55 06dcf2d1-67c5-4daa-939d-004568b8cffa INF] Request finished HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 218806 application/javascript 83.4588ms
+[10:47:55 a638ea94-9032-4d97-be2d-be976805b437 INF] Request finished HTTP/2 GET https://localhost:44360/lib/jquery/dist/jquery.js - - - 200 282115 application/javascript 84.2020ms
+[10:47:55 fe10b021-01f5-4370-bb12-99bfb8baa5a4 INF] Request starting HTTP/2 GET https://localhost:44360/favicon.ico - -
+[10:47:55 fe10b021-01f5-4370-bb12-99bfb8baa5a4 INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\favicon.ico'
+[10:47:55 fe10b021-01f5-4370-bb12-99bfb8baa5a4 INF] Request finished HTTP/2 GET https://localhost:44360/favicon.ico - - - 200 32038 image/x-icon 6.2799ms
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Request starting HTTP/2 GET https://localhost:44360/Home/TriggerWarning - -
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.TriggerWarning (LoggingDemo)'
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Route matched with {action = "TriggerWarning", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TriggerWarning() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executing action method LoggingDemo.Controllers.HomeController.TriggerWarning (LoggingDemo) - Validation state: "Valid"
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f WRN] null visited privacy page at "2021-08-19T15:48:04.6206749Z"
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executed action method LoggingDemo.Controllers.HomeController.TriggerWarning (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9107ms.
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executing ViewResult, running view TriggerWarning.
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executed ViewResult - view TriggerWarning executed in 3.8233ms.
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executed action LoggingDemo.Controllers.HomeController.TriggerWarning (LoggingDemo) in 15.4974ms
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.TriggerWarning (LoggingDemo)'
+[10:48:04 5f1ad17c-10f5-4da0-b497-2023d42bac7f INF] Request finished HTTP/2 GET https://localhost:44360/Home/TriggerWarning - - - 200 - text/html;+charset=utf-8 19.1382ms
+[10:49:23  INF] Starting web host
+[10:49:24  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Request starting HTTP/2 GET https://localhost:44360/ - -
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3787ms.
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executing ViewResult, running view Index.
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executed ViewResult - view Index executed in 191.1579ms.
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 255.7631ms
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] HTTP GET / responded 200 in 308.4997 ms
+[10:49:24 ceea9057-92a9-413b-8bf3-889a0b091646 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 324.1833ms
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Request starting HTTP/2 GET https://localhost:44360/Home/ComplexLogging - -
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.ComplexLogging (LoggingDemo)'
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Route matched with {action = "ComplexLogging", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ComplexLogging() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executing action method LoggingDemo.Controllers.HomeController.ComplexLogging (LoggingDemo) - Validation state: "Valid"
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] User Information Microsoft.AspNetCore.Http.DefaultHttpRequest
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Full User Identity Details {"AuthenticationType":null,"IsAuthenticated":false,"Actor":null,"BootstrapContext":null,"Claims":[],"Label":null,"Name":null,"NameClaimType":"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name","RoleClaimType":"http://schemas.microsoft.com/ws/2008/06/identity/claims/role","$type":"ClaimsIdentity"}
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executed action method LoggingDemo.Controllers.HomeController.ComplexLogging (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 123.849ms.
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executing ViewResult, running view ComplexLogging.
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executed ViewResult - view ComplexLogging executed in 14.3898ms.
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executed action LoggingDemo.Controllers.HomeController.ComplexLogging (LoggingDemo) in 149.1772ms
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.ComplexLogging (LoggingDemo)'
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] HTTP GET /Home/ComplexLogging responded 200 in 151.8778 ms
+[10:49:27 acd7bc9a-669d-4af5-9d4d-530b65966ef4 INF] Request finished HTTP/2 GET https://localhost:44360/Home/ComplexLogging - - - 200 - text/html;+charset=utf-8 152.4855ms
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Request starting HTTP/2 GET https://localhost:44360/Home/EntityFramework - -
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Route matched with {action = "EntityFramework", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EntityFramework() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executing action method LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) - Validation state: "Valid"
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executed action method LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1165ms.
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executing ViewResult, running view EntityFramework.
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executed ViewResult - view EntityFramework executed in 7.1807ms.
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executed action LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) in 17.9376ms
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] HTTP GET /Home/EntityFramework responded 200 in 20.7843 ms
+[10:49:29 8648377f-530d-4a24-a160-5576dc8e10f4 INF] Request finished HTTP/2 GET https://localhost:44360/Home/EntityFramework - - - 200 - text/html;+charset=utf-8 21.2998ms
+[10:51:18  INF] Starting web host
+[10:51:19  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Request starting HTTP/2 GET https://localhost:44360/ - -
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3785ms.
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executing ViewResult, running view Index.
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executed ViewResult - view Index executed in 188.5659ms.
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 252.829ms
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] HTTP GET / responded 200 in 306.4611 ms
+[10:51:19 104f4c7f-836e-4165-93e2-ed22e3882ea4 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 328.8920ms
+[10:51:22 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Request starting HTTP/2 GET https://localhost:44360/Identity/Account/Login - -
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executing endpoint '/Account/Login'
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] AuthenticationScheme: Identity.External signed out.
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executed handler method OnGetAsync, returned result .
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executing an implicit handler method - ModelState is "Valid"
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executed page /Account/Login in 57.1022ms
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Executed endpoint '/Account/Login'
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] HTTP GET /Identity/Account/Login responded 200 in 81.5367 ms
+[10:51:23 f89fe38a-012a-443d-a916-4ad1f36bdd37 INF] Request finished HTTP/2 GET https://localhost:44360/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 85.9237ms
+[10:51:23 43598043-7eed-4c22-84bb-65273b4f427c INF] Request starting HTTP/2 GET https://localhost:44360/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+[10:51:23 5d62cacf-7634-4182-88dd-76c5bc36b8cc INF] Request starting HTTP/2 GET https://localhost:44360/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+[10:51:23 5d62cacf-7634-4182-88dd-76c5bc36b8cc INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\mitch\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.2\staticwebassets\V4\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+[10:51:23 5d62cacf-7634-4182-88dd-76c5bc36b8cc INF] Request finished HTTP/2 GET https://localhost:44360/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 119.5201ms
+[10:51:23 43598043-7eed-4c22-84bb-65273b4f427c INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\mitch\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.2\staticwebassets\V4\lib\jquery-validation\dist\jquery.validate.js'
+[10:51:23 43598043-7eed-4c22-84bb-65273b4f427c INF] Request finished HTTP/2 GET https://localhost:44360/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 126.1972ms
+[10:51:31 f34f7656-1e66-4111-817c-0d67c3b4f138 INF] Request starting HTTP/2 POST https://localhost:44360/Identity/Account/Login application/x-www-form-urlencoded 278
+[10:51:31 f34f7656-1e66-4111-817c-0d67c3b4f138 INF] Executing endpoint '/Account/Login'
+[10:51:31 f34f7656-1e66-4111-817c-0d67c3b4f138 INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+[10:51:31 f34f7656-1e66-4111-817c-0d67c3b4f138 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+[10:51:32 f34f7656-1e66-4111-817c-0d67c3b4f138 INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+[10:52:47  INF] Starting web host  
+[10:52:48  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.  
+[10:52:48 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Request starting HTTP/2 GET https://localhost:44360/ - -  
+[10:52:48 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[10:52:48 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).  
+[10:52:48 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"  
+[10:52:48 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4057ms.  
+[10:52:48 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executing ViewResult, running view Index.  
+[10:52:49 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executed ViewResult - view Index executed in 195.9567ms.  
+[10:52:49 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 261.1755ms  
+[10:52:49 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[10:52:49 01bde019-c24c-450a-91bb-a9d07cb1212c INF] HTTP GET / responded 200 in 314.5231 ms null 
+[10:52:49 01bde019-c24c-450a-91bb-a9d07cb1212c INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 330.4071ms  
+[10:54:53  INF] Starting web host  
+[10:54:54  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Request starting HTTP/2 GET https://localhost:44360/ - -  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4012ms.  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executing ViewResult, running view Index.  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executed ViewResult - view Index executed in 208.9578ms.  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 273.5926ms  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] HTTP GET / responded 200 in 327.0040 ms null 
+[10:54:54 7bbf1474-ffb1-493f-8f97-9855a96cbed7 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 343.4850ms  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Request starting HTTP/2 GET https://localhost:44360/Home/EntityFramework - -  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Route matched with {action = "EntityFramework", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EntityFramework() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executing action method LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) - Validation state: "Valid"  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executed action method LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1232ms.  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executing ViewResult, running view EntityFramework.  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executed ViewResult - view EntityFramework executed in 16.4421ms.  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executed action LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo) in 31.1015ms  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.EntityFramework (LoggingDemo)'  
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] HTTP GET /Home/EntityFramework responded 200 in 56.3251 ms null 
+[10:55:48 95c30c8d-bd7f-40bc-83d8-ecb8f6477112 INF] Request finished HTTP/2 GET https://localhost:44360/Home/EntityFramework - - - 200 - text/html;+charset=utf-8 60.5424ms  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Request starting HTTP/2 GET https://localhost:44360/Identity/Account/Login - -  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executing endpoint '/Account/Login'  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] AuthenticationScheme: Identity.External signed out.  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executed handler method OnGetAsync, returned result .  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executing an implicit handler method - ModelState is "Valid"  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executed page /Account/Login in 54.5109ms  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Executed endpoint '/Account/Login'  
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] HTTP GET /Identity/Account/Login responded 200 in 79.5291 ms null 
+[10:55:55 369e465a-10cb-4e0c-bb6f-ec0f1dcf4c77 INF] Request finished HTTP/2 GET https://localhost:44360/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 80.0686ms  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Request starting HTTP/2 GET https://localhost:44360/Identity/Account/Register?returnUrl=%2F - -  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executing endpoint '/Account/Register'  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executed handler method OnGetAsync, returned result .  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executing an implicit handler method - ModelState is "Valid"  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executed page /Account/Register in 119.7071ms  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Executed endpoint '/Account/Register'  
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] HTTP GET /Identity/Account/Register?returnUrl=%2F responded 200 in 127.9524 ms null 
+[10:56:00 59d8e729-da30-4658-a1a6-07f8e9acd434 INF] Request finished HTTP/2 GET https://localhost:44360/Identity/Account/Register?returnUrl=%2F - - - 200 - text/html;+charset=utf-8 132.4548ms  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Request starting HTTP/2 POST https://localhost:44360/Identity/Account/Register?returnUrl=%2F application/x-www-form-urlencoded 290  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Executing endpoint '/Account/Register'  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnPostAsync - ModelState is "Valid"  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Executed page /Account/Register in 539.0287ms  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Executed endpoint '/Account/Register'  
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 ERR] HTTP POST /Identity/Account/Register?returnUrl=%2F responded 500 in 540.3793 ms null 
+System.ArgumentException: Keyword not supported: 'server.;database'.
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.<>c.<get_IsMultipleActiveResultSetsEnabled>b__7_0(String cs)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.get_IsMultipleActiveResultSetsEnabled()
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserOnlyStore`6.FindByNameAsync(String normalizedUserName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel`1.OnPostAsync(String returnUrl)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 ERR] An unhandled exception has occurred while executing the request.  
+System.ArgumentException: Keyword not supported: 'server.;database'.
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder.GetIndex(String keyword)
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.<>c.<get_IsMultipleActiveResultSetsEnabled>b__7_0(String cs)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.get_IsMultipleActiveResultSetsEnabled()
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserOnlyStore`6.FindByNameAsync(String normalizedUserName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel`1.OnPostAsync(String returnUrl)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[10:56:13 38a7bbc4-ff40-4714-9f41-0b09dfceb042 INF] Request finished HTTP/2 POST https://localhost:44360/Identity/Account/Register?returnUrl=%2F application/x-www-form-urlencoded 290 - 500 - text/html;+charset=utf-8 694.3026ms  
+[10:56:42  INF] Starting web host  
+[10:56:43  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.  
+[10:56:43 2eb4b228-3524-4943-babf-84a28eeab879 INF] Request starting HTTP/2 GET https://localhost:44360/ - -  
+[10:56:43 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[10:56:43 2eb4b228-3524-4943-babf-84a28eeab879 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).  
+[10:56:43 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"  
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4076ms.  
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executing ViewResult, running view Index.  
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executed ViewResult - view Index executed in 220.8761ms.  
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 286.735ms  
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] HTTP GET / responded 200 in 340.0523 ms null 
+[10:56:44 2eb4b228-3524-4943-babf-84a28eeab879 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 359.1205ms  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Request starting HTTP/2 GET https://localhost:44360/Identity/Account/Login - -  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executing endpoint '/Account/Login'  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] AuthenticationScheme: Identity.External signed out.  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executed handler method OnGetAsync, returned result .  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executing an implicit handler method - ModelState is "Valid"  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executed page /Account/Login in 61.262ms  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Executed endpoint '/Account/Login'  
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] HTTP GET /Identity/Account/Login responded 200 in 107.1308 ms null 
+[11:04:54 5d27d57f-3399-4ae5-adf6-51c1b92f8e9f INF] Request finished HTTP/2 GET https://localhost:44360/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 110.6790ms  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Request starting HTTP/2 GET https://localhost:44360/Identity/Account/Register?returnUrl=%2F - -  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executing endpoint '/Account/Register'  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executed handler method OnGetAsync, returned result .  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executing an implicit handler method - ModelState is "Valid"  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executed page /Account/Register in 17.8689ms  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Executed endpoint '/Account/Register'  
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] HTTP GET /Identity/Account/Register?returnUrl=%2F responded 200 in 31.8075 ms null 
+[11:04:57 883eb5ba-f0fa-40d4-b806-f9a54ce983e6 INF] Request finished HTTP/2 GET https://localhost:44360/Identity/Account/Register?returnUrl=%2F - - - 200 - text/html;+charset=utf-8 32.4590ms  
+[11:05:06 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Request starting HTTP/2 POST https://localhost:44360/Identity/Account/Register?returnUrl=%2F application/x-www-form-urlencoded 290  
+[11:05:06 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Executing endpoint '/Account/Register'  
+[11:05:06 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register  
+[11:05:06 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnPostAsync - ModelState is "Valid"  
+[11:05:07 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None  
+[11:05:08 145ea6df-21df-45bd-8a57-b2f1373bf101 ERR] Failed executing DbCommand (34ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0  
+[11:05:08 145ea6df-21df-45bd-8a57-b2f1373bf101 ERR] An exception occurred while iterating over the results of a query for context type 'LoggingDemo.Data.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:c1e770b4-3cc3-4700-95dc-d7498d7db158
+Error Number:208,State:1,Class:16  
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:c1e770b4-3cc3-4700-95dc-d7498d7db158
+Error Number:208,State:1,Class:16
+[11:05:08 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Executed page /Account/Register in 2188.0758ms  
+[11:05:08 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Executed endpoint '/Account/Register'  
+[11:05:08 145ea6df-21df-45bd-8a57-b2f1373bf101 ERR] HTTP POST /Identity/Account/Register?returnUrl=%2F responded 500 in 2190.4027 ms null 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel`1.OnPostAsync(String returnUrl)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:c1e770b4-3cc3-4700-95dc-d7498d7db158
+Error Number:208,State:1,Class:16
+[11:05:09 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1  
+[11:05:09 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0  
+[11:05:09 145ea6df-21df-45bd-8a57-b2f1373bf101 INF] Request finished HTTP/2 POST https://localhost:44360/Identity/Account/Register?returnUrl=%2F application/x-www-form-urlencoded 290 - 500 - text/html;+charset=utf-8 2312.9237ms  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Request starting HTTP/2 POST https://localhost:44360/ApplyDatabaseMigrations application/x-www-form-urlencoded 135  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Applying migration '00000000000000_CreateIdentitySchema'.  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(128) NOT NULL,
+    [ProviderKey] nvarchar(128) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(128) NOT NULL,
+    [Name] nvarchar(128) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'00000000000000_CreateIdentitySchema', N'5.0.2');  
+[11:05:10 41ca1d34-ee2e-4673-a4c0-9f8018554fe3 INF] Request finished HTTP/2 POST https://localhost:44360/ApplyDatabaseMigrations application/x-www-form-urlencoded 135 - 204 - - 151.6093ms  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Request starting HTTP/2 POST https://localhost:44360/Identity/Account/Register?returnUrl=%2F application/x-www-form-urlencoded 290  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executing endpoint '/Account/Register'  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnPostAsync - ModelState is "Valid"  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Entity Framework Core 5.0.2 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] User created a new account with password.  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] AuthenticationScheme: Identity.Application signed in.  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executing LocalRedirectResult, redirecting to /.  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executed page /Account/Register in 271.8219ms  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Executed endpoint '/Account/Register'  
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] HTTP POST /Identity/Account/Register?returnUrl=%2F responded 302 in 272.1395 ms null 
+[11:05:17 475bc23c-8d92-49ea-8a05-a5a41a6e75ef INF] Request finished HTTP/2 POST https://localhost:44360/Identity/Account/Register?returnUrl=%2F application/x-www-form-urlencoded 290 - 302 - - 272.7289ms  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Request starting HTTP/2 GET https://localhost:44360/ - -  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0371ms.  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executing ViewResult, running view Index.  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executed ViewResult - view Index executed in 2.229ms.  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 14.2994ms  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] HTTP GET / responded 200 in 17.3697 ms msellers@iowacomputergurus.com 
+[11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 17.7631ms  

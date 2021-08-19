@@ -47,7 +47,7 @@ namespace LoggingDemo
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .UseSerilog();
+                .UseSerilog() //Do this here, as now you will get proper logging of errors in startup (failed dependencies etc)
+                .UseStartup<Startup>();
     }
 }
