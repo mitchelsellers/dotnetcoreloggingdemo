@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 using Serilog;
-using Serilog.Events;
 
 namespace LoggingDemo
 {
     public class Program
     {
         //Build out a reference to configuration here, so we can configure logging @ Startup
+        //Referenced Blog Psot - https://mitchelsellers.com/blog/article/real-world-asp-net-core-logging-configuration
         public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)

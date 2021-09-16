@@ -38,8 +38,6 @@ namespace LoggingDemo.Controllers
 
         public IActionResult Privacy()
         {
-            //Commented out to avoid performance impacts of executing this on each page request
-            //_logger.LogInformation("User Request {@Request}", Request);
             return View();
         }
 
