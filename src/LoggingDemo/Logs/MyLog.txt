@@ -576,3 +576,36 @@ WHERE [a].[UserId] = @__user_Id_0
 [11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
 [11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] HTTP GET / responded 200 in 17.3697 ms msellers@iowacomputergurus.com 
 [11:05:17 6f0abc8c-44d2-45fc-961d-393cb0467d80 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 17.7631ms  
+[16:40:14  INF] Starting web host  
+[16:40:17  INF] User profile is available. Using 'C:\Users\mitch\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.  
+[16:40:17 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Request starting HTTP/2 GET https://localhost:44360/ - -  
+[16:40:17 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executing endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[16:40:17 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LoggingDemo.Controllers.HomeController (LoggingDemo).  
+[16:40:17 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executing action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo) - Validation state: "Valid"  
+[16:40:17 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executed action method LoggingDemo.Controllers.HomeController.Index (LoggingDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4757ms.  
+[16:40:17 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executing ViewResult, running view Index.  
+[16:40:18 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executed ViewResult - view Index executed in 472.8177ms.  
+[16:40:18 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executed action LoggingDemo.Controllers.HomeController.Index (LoggingDemo) in 595.8659ms  
+[16:40:18 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Executed endpoint 'LoggingDemo.Controllers.HomeController.Index (LoggingDemo)'  
+[16:40:18 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] HTTP GET / responded 200 in 649.0583 ms null 
+[16:40:18 5a16b2e7-df69-42e5-ade7-d754605cd1c3 INF] Request finished HTTP/2 GET https://localhost:44360/ - - - 200 - text/html;+charset=utf-8 724.3242ms  
+[16:40:18 31229a26-bdc3-4384-9c58-a1027793dee7 INF] Request starting HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/css/bootstrap.css - -  
+[16:40:18 9f9dfcf2-e6ca-4748-a4c2-0d31a0d7e0d5 INF] Request starting HTTP/2 GET https://localhost:44360/css/site.css - -  
+[16:40:18 6595512b-0746-431d-84e7-b8b53d9e5854 INF] Request starting HTTP/2 GET https://localhost:44360/lib/jquery/dist/jquery.js - -  
+[16:40:18 dc106955-0c8a-44b8-8d80-26f0f8452005 INF] Request starting HTTP/2 GET https://localhost:44360/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -  
+[16:40:18 ce751f36-f6e8-4c8f-bc15-eb1bf995acfe INF] Request starting HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/js/bootstrap.bundle.js - -  
+[16:40:18 d862166c-33d2-4c5c-b70f-c2977b90b19f INF] Request starting HTTP/2 GET https://localhost:44360/_vs/browserLink - -  
+[16:40:18 dc106955-0c8a-44b8-8d80-26f0f8452005 INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\js\site.js'  
+[16:40:18 9f9dfcf2-e6ca-4748-a4c2-0d31a0d7e0d5 INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\css\site.css'  
+[16:40:18 9f9dfcf2-e6ca-4748-a4c2-0d31a0d7e0d5 INF] Request finished HTTP/2 GET https://localhost:44360/css/site.css - - - 200 1163 text/css 87.4931ms  
+[16:40:18 dc106955-0c8a-44b8-8d80-26f0f8452005 INF] Request finished HTTP/2 GET https://localhost:44360/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 66.4028ms  
+[16:40:18 6595512b-0746-431d-84e7-b8b53d9e5854 INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\lib\jquery\dist\jquery.js'  
+[16:40:18 ce751f36-f6e8-4c8f-bc15-eb1bf995acfe INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js'  
+[16:40:18 31229a26-bdc3-4384-9c58-a1027793dee7 INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.css'  
+[16:40:18 31229a26-bdc3-4384-9c58-a1027793dee7 INF] Request finished HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/css/bootstrap.css - - - 200 182626 text/css 132.8586ms  
+[16:40:18 ce751f36-f6e8-4c8f-bc15-eb1bf995acfe INF] Request finished HTTP/2 GET https://localhost:44360/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 218806 application/javascript 91.5989ms  
+[16:40:18 6595512b-0746-431d-84e7-b8b53d9e5854 INF] Request finished HTTP/2 GET https://localhost:44360/lib/jquery/dist/jquery.js - - - 200 282115 application/javascript 130.7765ms  
+[16:40:18 d862166c-33d2-4c5c-b70f-c2977b90b19f INF] Request finished HTTP/2 GET https://localhost:44360/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.5264ms  
+[16:40:18 45d3f48c-9fdb-4564-b873-ba13e1b859d0 INF] Request starting HTTP/2 GET https://localhost:44360/favicon.ico - -  
+[16:40:18 45d3f48c-9fdb-4564-b873-ba13e1b859d0 INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Repos\dotnetcoreloggingdemo\src\LoggingDemo\wwwroot\favicon.ico'  
+[16:40:18 45d3f48c-9fdb-4564-b873-ba13e1b859d0 INF] Request finished HTTP/2 GET https://localhost:44360/favicon.ico - - - 200 32038 image/x-icon 3.4033ms  
