@@ -1,4 +1,5 @@
 ﻿@page "/counter"
+@inject ILogger<Counter> Logger
 
 <PageTitle>Counter</PageTitle>
 
@@ -9,10 +10,17 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
+    private static readonly System.Diagnostics.ActivitySource ActivitySource = new("BlazorLoggingDemo.Demos");
     private int currentCount = 0;
 
     private void IncrementCount()
     {
+        using var activity = ActivitySource.StartActivity("counter.increment", System.Diagnostics.ActivityKind.Internal);
+        activity?.SetTag("counter.previous", currentCount);
+
         currentCount++;
+
+        activity?.SetTag("counter.current", currentCount);
+        Logger.LogInformation("Counter incremented to {CurrentCount}", currentCount);
     }
 }

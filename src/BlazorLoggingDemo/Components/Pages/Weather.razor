@@ -1,4 +1,5 @@
 ﻿@page "/weather"
+@inject ILogger<Weather> Logger
 
 <PageTitle>Weather</PageTitle>
 
@@ -36,10 +37,22 @@ else
 }
 
 @code {
+    private static readonly System.Diagnostics.ActivitySource ActivitySource = new("BlazorLoggingDemo.Demos");
     private WeatherForecast[]? forecasts;
 
     protected override async Task OnInitializedAsync()
     {
+        var loadId = Guid.NewGuid().ToString("n");
+        using var scope = Logger.BeginScope(new Dictionary<string, object>
+        {
+            ["LoadId"] = loadId,
+            ["Page"] = "Weather"
+        });
+        using var activity = ActivitySource.StartActivity("weather.load", System.Diagnostics.ActivityKind.Internal);
+        activity?.SetTag("weather.load_id", loadId);
+
+        Logger.LogInformation("Weather data load started for {LoadId}", loadId);
+
         // Simulate asynchronous loading to demonstrate a loading indicator
         await Task.Delay(500);
 
@@ -51,6 +64,9 @@ else
             TemperatureC = Random.Shared.Next(-20, 55),
             Summary = summaries[Random.Shared.Next(summaries.Length)]
         }).ToArray();
+
+        activity?.SetTag("weather.count", forecasts.Length);
+        Logger.LogInformation("Weather data load completed for {LoadId} with {Count} rows", loadId, forecasts.Length);
     }
 
     private class WeatherForecast

@@ -1,0 +1,78 @@
+@page "/observability"
+@inject ILogger<Observability> Logger
+@inject DemoOutboundClient OutboundClient
+
+<PageTitle>Observability</PageTitle>
+
+<h1>Observability Demo</h1>
+
+<p class="mb-3">Use the actions below to generate structured logs with scopes, warnings, and handled exceptions.</p>
+
+<div class="d-flex gap-2 flex-wrap mb-3">
+	<button class="btn btn-primary" @onclick="LogInfoEvent">Log Information</button>
+	<button class="btn btn-warning" @onclick="LogWarningEvent">Log Warning</button>
+	<button class="btn btn-danger" @onclick="LogHandledException">Log Handled Exception</button>
+	<button class="btn btn-secondary" @onclick="CallOutboundDependencyAsync">Call Outbound Dependency</button>
+</div>
+
+@if (!string.IsNullOrWhiteSpace(lastEvent))
+{
+	<p role="status" class="alert alert-secondary">Last event: @lastEvent</p>
+}
+
+@code {
+	private string? lastEvent;
+
+	private void LogInfoEvent()
+	{
+		var actionId = Guid.NewGuid().ToString("n");
+		using var scope = Logger.BeginScope(new Dictionary<string, object>
+		{
+			["DemoAction"] = "InfoClick",
+			["ActionId"] = actionId
+		});
+
+		Logger.LogInformation("Observability info event generated for {ActionId}", actionId);
+		lastEvent = $"Information logged ({actionId})";
+	}
+
+	private void LogWarningEvent()
+	{
+		var actionId = Guid.NewGuid().ToString("n");
+		using var scope = Logger.BeginScope(new Dictionary<string, object>
+		{
+			["DemoAction"] = "WarningClick",
+			["ActionId"] = actionId
+		});
+
+		Logger.LogWarning("Observability warning generated for {ActionId}", actionId);
+		lastEvent = $"Warning logged ({actionId})";
+	}
+
+	private void LogHandledException()
+	{
+		var actionId = Guid.NewGuid().ToString("n");
+		using var scope = Logger.BeginScope(new Dictionary<string, object>
+		{
+			["DemoAction"] = "HandledExceptionClick",
+			["ActionId"] = actionId
+		});
+
+		try
+		{
+			throw new InvalidOperationException("Demo exception from observability page");
+		}
+		catch (Exception ex)
+		{
+			Logger.LogError(ex, "Handled exception generated for {ActionId}", actionId);
+			lastEvent = $"Handled exception logged ({actionId})";
+		}
+	}
+
+	private async Task CallOutboundDependencyAsync()
+	{
+		var result = await OutboundClient.CallSampleDependencyAsync(CancellationToken.None);
+		Logger.LogInformation("Outbound demo action completed for {RequestId} with status {StatusCode}", result.RequestId, result.StatusCode);
+		lastEvent = $"Outbound call logged ({result.RequestId}) - HTTP {result.StatusCode}";
+	}
+}

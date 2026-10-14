@@ -1,0 +1,332 @@
+[2026-10-14 00:06:43.021 -05:00 INF] (15920ec102c00c9795857e10826d65da/603c1d1d05636831) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:06:43.320 -05:00 INF] (15920ec102c00c9795857e10826d65da/603c1d1d05636831) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:06:43.323 -05:00 INF] (15920ec102c00c9795857e10826d65da/603c1d1d05636831) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 309.6520 ms
+[2026-10-14 00:06:43.376 -05:00 INF] (df855503771bc1f12995d705be7e0fb2/7dd8f388ea799532) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.376 -05:00 INF] (898dd2ecf2c0573f17d48f410ddad1c6/954f1d4e69ae7403) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.376 -05:00 INF] (309891d63ddf74513d52ed33442bf755/bb56f32ce1eb18eb) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.376 -05:00 INF] (9331bce897b41f6af270c9d063b44941/3e05962e5ee05fa7) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.377 -05:00 INF] (2ff95945fbe293230de4a6e7a999e28a/daeb8635e19d7e06) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.391 -05:00 INF] (898dd2ecf2c0573f17d48f410ddad1c6/954f1d4e69ae7403) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.392 -05:00 INF] (898dd2ecf2c0573f17d48f410ddad1c6/954f1d4e69ae7403) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 17.5933 ms
+[2026-10-14 00:06:43.408 -05:00 INF] (df855503771bc1f12995d705be7e0fb2/7dd8f388ea799532) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.408 -05:00 INF] (df855503771bc1f12995d705be7e0fb2/7dd8f388ea799532) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 33.5726 ms
+[2026-10-14 00:06:43.408 -05:00 INF] (309891d63ddf74513d52ed33442bf755/bb56f32ce1eb18eb) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.408 -05:00 INF] (309891d63ddf74513d52ed33442bf755/bb56f32ce1eb18eb) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 33.7198 ms
+[2026-10-14 00:06:43.425 -05:00 INF] (2ff95945fbe293230de4a6e7a999e28a/daeb8635e19d7e06) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.425 -05:00 INF] (9331bce897b41f6af270c9d063b44941/3e05962e5ee05fa7) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.427 -05:00 INF] (9331bce897b41f6af270c9d063b44941/3e05962e5ee05fa7) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 52.5052 ms
+[2026-10-14 00:06:43.427 -05:00 INF] (2ff95945fbe293230de4a6e7a999e28a/daeb8635e19d7e06) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 52.4195 ms
+[2026-10-14 00:06:43.464 -05:00 INF] (1a304c0cfaf6ab1891ba901419ebaac6/9fc49937e1144fcf) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.467 -05:00 INF] (1a304c0cfaf6ab1891ba901419ebaac6/9fc49937e1144fcf) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.467 -05:00 INF] (1a304c0cfaf6ab1891ba901419ebaac6/9fc49937e1144fcf) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.5369 ms
+[2026-10-14 00:06:43.530 -05:00 INF] (4e8ab8bf48d05429f8cb486639a51cf5/a1e58fa75336e072) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.539 -05:00 INF] (4e8ab8bf48d05429f8cb486639a51cf5/a1e58fa75336e072) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:06:43.539 -05:00 INF] (4e8ab8bf48d05429f8cb486639a51cf5/a1e58fa75336e072) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 9.5002 ms
+[2026-10-14 00:06:43.549 -05:00 INF] (a951e9583e51adc2fac15c2c32bc54b4/dcca67b306b374dd) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:07:23.098 -05:00 INF] (fe3d6745d3c346bab7514f36edd2ebd6/62a71e49b96c3ad1) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 1
+[2026-10-14 00:07:23.363 -05:00 INF] (5bd80f572e30d080449cadf201e78971/6db0da169b887ad5) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 2
+[2026-10-14 00:07:23.596 -05:00 INF] (9ce7b92b6ac65bbf285cfcf8c52a8256/e212fda04bef6288) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 3
+[2026-10-14 00:07:23.798 -05:00 INF] (06818c4054ce958b2a875f4fabd30010/675e70ababfe7431) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 4
+[2026-10-14 00:07:23.963 -05:00 INF] (31eff6af32692e0e2800bcef68bcaf33/3159090891f7c785) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 5
+[2026-10-14 00:08:07.934 -05:00 INF] (47b61294e877f5786030a5e999a89cb1/ebce3c59d2e445be) BlazorLoggingDemo.Components.Pages.Weather Weather data load started for 506b81c247c74695bb2683296d3e9a8b
+[2026-10-14 00:08:08.440 -05:00 INF] (47b61294e877f5786030a5e999a89cb1/ebce3c59d2e445be) BlazorLoggingDemo.Components.Pages.Weather Weather data load completed for 506b81c247c74695bb2683296d3e9a8b with 5 rows
+[2026-10-14 00:08:12.273 -05:00 INF] (508caf5c2fcd141293e7ac8d4659ccd8/a374cbdece753d68) BlazorLoggingDemo.Components.Pages.Observability Observability info event generated for 363301d14a534060be473653b2329c67
+[2026-10-14 00:08:14.754 -05:00 WRN] (c273742aa3aebc731ee7262e0db2aff6/c152e1afb4f43b90) BlazorLoggingDemo.Components.Pages.Observability Observability warning generated for 3fbe5dafea074cd58e9dd153f4420086
+[2026-10-14 00:08:16.374 -05:00 ERR] (e800a1afff8acd0710c6459b02d7b6d2/60d8fe00d3086f91) BlazorLoggingDemo.Components.Pages.Observability Handled exception generated for 912847c167ad4aa88f8c17271ceb7145
+System.InvalidOperationException: Demo exception from observability page
+   at BlazorLoggingDemo.Components.Pages.Observability.LogHandledException() in D:\repos\dotnetcoreloggingdemo\src\BlazorLoggingDemo\Components\Pages\Observability.razor:line 63
+[2026-10-14 00:08:19.888 -05:00 INF] (307484f761967dcc53216bc3221aaa64/5554765c184081d2) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call starting for 1a44c2bdf30d4698a1cc590c413a01d7 to "https://www.microsoft.com/"
+[2026-10-14 00:08:20.134 -05:00 INF] (307484f761967dcc53216bc3221aaa64/5554765c184081d2) Polly Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 188.8847ms
+[2026-10-14 00:08:20.184 -05:00 INF] (307484f761967dcc53216bc3221aaa64/5554765c184081d2) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call completed for 1a44c2bdf30d4698a1cc590c413a01d7 with status 200
+[2026-10-14 00:08:20.185 -05:00 INF] (307484f761967dcc53216bc3221aaa64/5554765c184081d2) BlazorLoggingDemo.Components.Pages.Observability Outbound demo action completed for 1a44c2bdf30d4698a1cc590c413a01d7 with status 200
+[2026-10-14 00:08:48.548 -05:00 INF] (a951e9583e51adc2fac15c2c32bc54b4/dcca67b306b374dd) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:08:48.549 -05:00 INF] (a951e9583e51adc2fac15c2c32bc54b4/dcca67b306b374dd) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 124999.8831 ms
+[2026-10-14 00:08:48.580 -05:00 INF] (38e9f9e04f25d55e10f36e9477f3e0e4/49a6cb7de4c676a5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:08:48.598 -05:00 INF] (38e9f9e04f25d55e10f36e9477f3e0e4/49a6cb7de4c676a5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:08:48.599 -05:00 INF] (38e9f9e04f25d55e10f36e9477f3e0e4/49a6cb7de4c676a5) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 18.7805 ms
+[2026-10-14 00:13:01.491 -05:00 INF] (9806843215c2defb41c47aed85b5ca43/3f3180463b4e0c63) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:13:01.851 -05:00 INF] (9806843215c2defb41c47aed85b5ca43/3f3180463b4e0c63) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:13:01.856 -05:00 INF] (9806843215c2defb41c47aed85b5ca43/3f3180463b4e0c63) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 374.5092 ms
+[2026-10-14 00:13:01.937 -05:00 INF] (30e9aa7c029a80beb5e55fbd312e3121/06c4c80c1ceb39b2) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.937 -05:00 INF] (da8c7bd8431b975135c4bf07c6e4bd24/d75cb1fb94f3fe34) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.937 -05:00 INF] (293848098383ab1f914d743b58f436de/9024b5f9c94815ed) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.938 -05:00 INF] (7953d14e19602eba93ab1a0696b535b0/4ad41abef95b68ed) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.938 -05:00 INF] (fe906c2f4490251d93732566de400c88/af74c1059def1436) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.949 -05:00 INF] (fe906c2f4490251d93732566de400c88/af74c1059def1436) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.949 -05:00 INF] (fe906c2f4490251d93732566de400c88/af74c1059def1436) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 48.0961 ms
+[2026-10-14 00:13:01.986 -05:00 INF] (30e9aa7c029a80beb5e55fbd312e3121/06c4c80c1ceb39b2) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.986 -05:00 INF] (7953d14e19602eba93ab1a0696b535b0/4ad41abef95b68ed) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.986 -05:00 INF] (30e9aa7c029a80beb5e55fbd312e3121/06c4c80c1ceb39b2) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 84.7473 ms
+[2026-10-14 00:13:01.986 -05:00 INF] (7953d14e19602eba93ab1a0696b535b0/4ad41abef95b68ed) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 84.8117 ms
+[2026-10-14 00:13:01.992 -05:00 INF] (da8c7bd8431b975135c4bf07c6e4bd24/d75cb1fb94f3fe34) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.992 -05:00 INF] (293848098383ab1f914d743b58f436de/9024b5f9c94815ed) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:01.992 -05:00 INF] (da8c7bd8431b975135c4bf07c6e4bd24/d75cb1fb94f3fe34) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 91.0410 ms
+[2026-10-14 00:13:01.992 -05:00 INF] (293848098383ab1f914d743b58f436de/9024b5f9c94815ed) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 91.0666 ms
+[2026-10-14 00:13:02.022 -05:00 INF] (0fb6f7a9fc75e20a568c536bced60708/c2cf3fa9acd93f8d) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:02.026 -05:00 INF] (0fb6f7a9fc75e20a568c536bced60708/c2cf3fa9acd93f8d) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:02.026 -05:00 INF] (0fb6f7a9fc75e20a568c536bced60708/c2cf3fa9acd93f8d) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.5975 ms
+[2026-10-14 00:13:02.075 -05:00 INF] (54ef40f524686a9d5a7a8692f48cf7ec/bba3225a47002ce6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:02.085 -05:00 INF] (54ef40f524686a9d5a7a8692f48cf7ec/bba3225a47002ce6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:02.085 -05:00 INF] (54ef40f524686a9d5a7a8692f48cf7ec/bba3225a47002ce6) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 9.9906 ms
+[2026-10-14 00:13:02.092 -05:00 INF] (300227dbf536850af7074982aa592f25/29058821febdb580) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:13:32.424 -05:00 INF] (5af601eee6d1f7bd41015db8da5906b3/dc3e57f704aa7be2) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 1
+[2026-10-14 00:13:32.601 -05:00 INF] (b8736fc6c8c23bcc265b3f09bf773ad9/97a2e37ed6cf06d8) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 2
+[2026-10-14 00:13:32.787 -05:00 INF] (b2cb432d8ceb6c53d7fa18d38722b381/e4e51e693d0e7472) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 3
+[2026-10-14 00:13:32.953 -05:00 INF] (ad85448756caf2bfd1f9d2d2422654e0/78bee08fba6e9f48) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 4
+[2026-10-14 00:13:33.118 -05:00 INF] (3519d77047462ae169377816a21e09da/a83a176fb1919ed7) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 5
+[2026-10-14 00:13:40.796 -05:00 INF] (bf2fb7eb9261791039818cb76a57b561/2d514d14ce09a913) BlazorLoggingDemo.Components.Pages.Weather Weather data load started for d9a927161d1f4fed8ef6830896108950
+[2026-10-14 00:13:41.306 -05:00 INF] (bf2fb7eb9261791039818cb76a57b561/2d514d14ce09a913) BlazorLoggingDemo.Components.Pages.Weather Weather data load completed for d9a927161d1f4fed8ef6830896108950 with 5 rows
+[2026-10-14 00:13:43.378 -05:00 INF] (8ce2369bbdc2f88cdcd1b54713a097d3/f359faf41cce7953) BlazorLoggingDemo.Components.Pages.Observability Observability info event generated for 8ae3034b2ad64f6cbaa60a4eb527cb27
+[2026-10-14 00:13:43.888 -05:00 WRN] (d66a0146f0752769bfca579e6a7287a3/af39747b0844106e) BlazorLoggingDemo.Components.Pages.Observability Observability warning generated for 2955f4be0d5b4936ad8c49492bf89702
+[2026-10-14 00:13:44.340 -05:00 ERR] (a51b69c4d49867206261e96bbfb5f57b/a22a2f2de1f1e06c) BlazorLoggingDemo.Components.Pages.Observability Handled exception generated for 14bb6598481341ee9248035c80cb2481
+System.InvalidOperationException: Demo exception from observability page
+   at BlazorLoggingDemo.Components.Pages.Observability.LogHandledException() in D:\repos\dotnetcoreloggingdemo\src\BlazorLoggingDemo\Components\Pages\Observability.razor:line 63
+[2026-10-14 00:13:44.701 -05:00 INF] (141a4f1477487ab168d03656f9a70e42/323d993e97dd9ba4) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call starting for d7ed6ca5667c41d8b404e82ff5d5d3e1 to "https://www.microsoft.com/"
+[2026-10-14 00:13:45.029 -05:00 INF] (141a4f1477487ab168d03656f9a70e42/323d993e97dd9ba4) Polly Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 254.9425ms
+[2026-10-14 00:13:45.053 -05:00 INF] (141a4f1477487ab168d03656f9a70e42/323d993e97dd9ba4) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call completed for d7ed6ca5667c41d8b404e82ff5d5d3e1 with status 200
+[2026-10-14 00:13:45.055 -05:00 INF] (141a4f1477487ab168d03656f9a70e42/323d993e97dd9ba4) BlazorLoggingDemo.Components.Pages.Observability Outbound demo action completed for d7ed6ca5667c41d8b404e82ff5d5d3e1 with status 200
+[2026-10-14 00:14:17.201 -05:00 INF] (c082476b6cd6db641170c54fca242837/63d2ffd2233c80ed) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:17.231 -05:00 INF] (c082476b6cd6db641170c54fca242837/63d2ffd2233c80ed) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:17.231 -05:00 INF] (c082476b6cd6db641170c54fca242837/63d2ffd2233c80ed) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 30.0761 ms
+[2026-10-14 00:14:17.232 -05:00 INF] (300227dbf536850af7074982aa592f25/29058821febdb580) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:17.232 -05:00 INF] (300227dbf536850af7074982aa592f25/29058821febdb580) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 75139.7992 ms
+[2026-10-14 00:14:59.496 -05:00 INF] (4bdfa9ea06157610b5d4df7bb6a70365/7777e1a60918ac64) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:14:59.732 -05:00 INF] (4bdfa9ea06157610b5d4df7bb6a70365/7777e1a60918ac64) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:14:59.736 -05:00 INF] (4bdfa9ea06157610b5d4df7bb6a70365/7777e1a60918ac64) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 241.8298 ms
+[2026-10-14 00:14:59.836 -05:00 INF] (15791ac41cef41d98e78d399dc733721/7c3349b79a0c0c16) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.836 -05:00 INF] (102951bea37898e367b42a4225fceb76/438d98ee89f57ca9) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.837 -05:00 INF] (3f58074ce5562ffa083e95af0280f164/310cec119a4810c1) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.836 -05:00 INF] (82bbe9d21fefd99ef5d90d641521980b/19ce3f503c74e243) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.836 -05:00 INF] (c484c9f0c22612751a65a691252ab59e/7569fcb4ac1cce02) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.846 -05:00 INF] (15791ac41cef41d98e78d399dc733721/7c3349b79a0c0c16) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.846 -05:00 INF] (15791ac41cef41d98e78d399dc733721/7c3349b79a0c0c16) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 11.1821 ms
+[2026-10-14 00:14:59.872 -05:00 INF] (3f58074ce5562ffa083e95af0280f164/310cec119a4810c1) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.872 -05:00 INF] (82bbe9d21fefd99ef5d90d641521980b/19ce3f503c74e243) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.873 -05:00 INF] (3f58074ce5562ffa083e95af0280f164/310cec119a4810c1) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 37.7755 ms
+[2026-10-14 00:14:59.873 -05:00 INF] (82bbe9d21fefd99ef5d90d641521980b/19ce3f503c74e243) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 37.8604 ms
+[2026-10-14 00:14:59.881 -05:00 INF] (c484c9f0c22612751a65a691252ab59e/7569fcb4ac1cce02) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.881 -05:00 INF] (102951bea37898e367b42a4225fceb76/438d98ee89f57ca9) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.882 -05:00 INF] (c484c9f0c22612751a65a691252ab59e/7569fcb4ac1cce02) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 47.4169 ms
+[2026-10-14 00:14:59.882 -05:00 INF] (102951bea37898e367b42a4225fceb76/438d98ee89f57ca9) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 47.4139 ms
+[2026-10-14 00:14:59.915 -05:00 INF] (7f184738d4b980684b91a8e6003a2f9e/b95c4aa1536f7cc4) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.918 -05:00 INF] (7f184738d4b980684b91a8e6003a2f9e/b95c4aa1536f7cc4) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.918 -05:00 INF] (7f184738d4b980684b91a8e6003a2f9e/b95c4aa1536f7cc4) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.6586 ms
+[2026-10-14 00:14:59.965 -05:00 INF] (4692fabeb5944f1e150e182023b3f5b0/a6b4e6522840756c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.974 -05:00 INF] (4692fabeb5944f1e150e182023b3f5b0/a6b4e6522840756c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:14:59.974 -05:00 INF] (4692fabeb5944f1e150e182023b3f5b0/a6b4e6522840756c) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 8.9958 ms
+[2026-10-14 00:14:59.980 -05:00 INF] (11cc429ef09b59f4a52ea24457307a7f/fe64854fdb5c4484) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:15:07.620 -05:00 INF] (5ad143c01c5926b8fdf9c06189704899/adb98f8e626a558b) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'HTTP: GET /demo/success'
+[2026-10-14 00:15:07.630 -05:00 INF] (5ad143c01c5926b8fdf9c06189704899/adb98f8e626a558b) DemoEndpoints Demo success endpoint executed for c0cb157684ae4ca79af30084ba71d0e7
+[2026-10-14 00:15:07.638 -05:00 INF] (5ad143c01c5926b8fdf9c06189704899/adb98f8e626a558b) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'HTTP: GET /demo/success'
+[2026-10-14 00:15:07.639 -05:00 INF] (5ad143c01c5926b8fdf9c06189704899/adb98f8e626a558b) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /demo/success responded 200 in 19.2835 ms
+[2026-10-14 00:15:07.809 -05:00 INF] (f08d1bebd9c15aea1f85159ab854b8f4/903a9d25df8c63b7) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/not-found (/not-found)'
+[2026-10-14 00:15:07.830 -05:00 INF] (f08d1bebd9c15aea1f85159ab854b8f4/903a9d25df8c63b7) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/not-found (/not-found)'
+[2026-10-14 00:15:07.831 -05:00 INF] (f08d1bebd9c15aea1f85159ab854b8f4/903a9d25df8c63b7) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /favicon.ico responded 404 in 47.0743 ms
+[2026-10-14 00:16:31.702 -05:00 INF] (6b32bcca126cd07e634dc12055aac9ac/3be4c730ad7b2098) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'HTTP: GET /demo/success'
+[2026-10-14 00:16:31.703 -05:00 INF] (6b32bcca126cd07e634dc12055aac9ac/3be4c730ad7b2098) DemoEndpoints Demo success endpoint executed for addda5d5758a483283ca214ef530c8a6
+[2026-10-14 00:16:31.703 -05:00 INF] (6b32bcca126cd07e634dc12055aac9ac/3be4c730ad7b2098) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'HTTP: GET /demo/success'
+[2026-10-14 00:16:31.703 -05:00 INF] (6b32bcca126cd07e634dc12055aac9ac/3be4c730ad7b2098) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /demo/success responded 200 in 1.2279 ms
+[2026-10-14 00:16:59.089 -05:00 INF] (7138335f4c0e273dfb484d548dd16c0c/c862526f4aaa4b4f) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call starting for 2fdc3d9a63444fdda15a4456750c79e4 to "https://www.microsoft.com/"
+[2026-10-14 00:16:59.337 -05:00 INF] (7138335f4c0e273dfb484d548dd16c0c/c862526f4aaa4b4f) Polly Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 190.3052ms
+[2026-10-14 00:16:59.367 -05:00 INF] (7138335f4c0e273dfb484d548dd16c0c/c862526f4aaa4b4f) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call completed for 2fdc3d9a63444fdda15a4456750c79e4 with status 200
+[2026-10-14 00:16:59.370 -05:00 INF] (7138335f4c0e273dfb484d548dd16c0c/c862526f4aaa4b4f) BlazorLoggingDemo.Components.Pages.Observability Outbound demo action completed for 2fdc3d9a63444fdda15a4456750c79e4 with status 200
+[2026-10-14 00:17:24.816 -05:00 INF] (11cc429ef09b59f4a52ea24457307a7f/fe64854fdb5c4484) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:17:24.817 -05:00 INF] (11cc429ef09b59f4a52ea24457307a7f/fe64854fdb5c4484) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 144836.0891 ms
+[2026-10-14 00:17:24.843 -05:00 INF] (09a9f041c81e0b287cd24ed8554799f7/02faf4a187a2d164) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:17:24.857 -05:00 INF] (09a9f041c81e0b287cd24ed8554799f7/02faf4a187a2d164) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:17:24.858 -05:00 INF] (09a9f041c81e0b287cd24ed8554799f7/02faf4a187a2d164) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 15.1277 ms
+[2026-10-14 00:20:46.850 -05:00 INF] (c22030e9e77072cbc915ca70cb08088b/a30c00e921a89cdf) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:20:47.189 -05:00 INF] (c22030e9e77072cbc915ca70cb08088b/a30c00e921a89cdf) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:20:47.192 -05:00 INF] (c22030e9e77072cbc915ca70cb08088b/a30c00e921a89cdf) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 347.5757 ms
+[2026-10-14 00:20:47.218 -05:00 INF] (86fb293040413f1712d0b235db6e2247/ae384f4d5476dae5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.218 -05:00 INF] (52a809c582f388bde6a5eb4cc49b2126/6cbdf8f3046fce5c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.218 -05:00 INF] (e0e0392c7c40ddda50e77755e3f2eba1/d8aaf66bb6d3946e) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.218 -05:00 INF] (c299d59edd28c4f3b57c615e90f78b93/e5da32a944236912) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.218 -05:00 INF] (286f6ea645d2c7d43853106e5018ba79/dba7fc7027f1813c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.231 -05:00 INF] (c299d59edd28c4f3b57c615e90f78b93/e5da32a944236912) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.231 -05:00 INF] (c299d59edd28c4f3b57c615e90f78b93/e5da32a944236912) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 16.8391 ms
+[2026-10-14 00:20:47.264 -05:00 INF] (286f6ea645d2c7d43853106e5018ba79/dba7fc7027f1813c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.266 -05:00 INF] (286f6ea645d2c7d43853106e5018ba79/dba7fc7027f1813c) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 51.6718 ms
+[2026-10-14 00:20:47.272 -05:00 INF] (52a809c582f388bde6a5eb4cc49b2126/6cbdf8f3046fce5c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.272 -05:00 INF] (86fb293040413f1712d0b235db6e2247/ae384f4d5476dae5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.272 -05:00 INF] (52a809c582f388bde6a5eb4cc49b2126/6cbdf8f3046fce5c) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 57.9996 ms
+[2026-10-14 00:20:47.272 -05:00 INF] (86fb293040413f1712d0b235db6e2247/ae384f4d5476dae5) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 58.0899 ms
+[2026-10-14 00:20:47.274 -05:00 INF] (e0e0392c7c40ddda50e77755e3f2eba1/d8aaf66bb6d3946e) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.275 -05:00 INF] (e0e0392c7c40ddda50e77755e3f2eba1/d8aaf66bb6d3946e) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 59.1255 ms
+[2026-10-14 00:20:47.305 -05:00 INF] (ca26be840f2c5ab29fbb670697fe885d/ad0386babc0d84dd) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.308 -05:00 INF] (ca26be840f2c5ab29fbb670697fe885d/ad0386babc0d84dd) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.308 -05:00 INF] (ca26be840f2c5ab29fbb670697fe885d/ad0386babc0d84dd) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.5003 ms
+[2026-10-14 00:20:47.352 -05:00 INF] (af836818613386b3b42f30f2378e8f10/5a09e741f76f2cb0) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.361 -05:00 INF] (af836818613386b3b42f30f2378e8f10/5a09e741f76f2cb0) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:20:47.361 -05:00 INF] (af836818613386b3b42f30f2378e8f10/5a09e741f76f2cb0) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 8.4794 ms
+[2026-10-14 00:20:47.369 -05:00 INF] (35b662c9be7465a43c67dcef6bbca8fc/de93272c8bae7bca) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:21:06.001 -05:00 INF] (c33bbb78fa855a71f148ffe7f73baf06/d1b6995249216417) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call starting for a9a1d192c5f14c1181ad6ac905a76c43 to "https://www.microsoft.com/"
+[2026-10-14 00:21:06.247 -05:00 INF] (c33bbb78fa855a71f148ffe7f73baf06/d1b6995249216417) Polly Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 192.4188ms
+[2026-10-14 00:21:06.296 -05:00 INF] (c33bbb78fa855a71f148ffe7f73baf06/d1b6995249216417) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call completed for a9a1d192c5f14c1181ad6ac905a76c43 with status 200
+[2026-10-14 00:21:06.297 -05:00 INF] (c33bbb78fa855a71f148ffe7f73baf06/d1b6995249216417) BlazorLoggingDemo.Components.Pages.Observability Outbound demo action completed for a9a1d192c5f14c1181ad6ac905a76c43 with status 200
+[2026-10-14 00:21:39.666 -05:00 INF] (f75a6bdc622a194a655637dfff468693/1343696cc4fafc27) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'HTTP: GET /demo/outbound'
+[2026-10-14 00:21:39.674 -05:00 INF] (f75a6bdc622a194a655637dfff468693/1343696cc4fafc27) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call starting for 9223dfcbb5c444989149b1ebc0962d54 to "https://www.microsoft.com/"
+[2026-10-14 00:21:39.710 -05:00 INF] (f75a6bdc622a194a655637dfff468693/1343696cc4fafc27) Polly Execution attempt. Source: '-standard//Standard-Retry', Operation Key: 'null', Result: '200', Handled: 'false', Attempt: '0', Execution Time: 35.3235ms
+[2026-10-14 00:21:39.731 -05:00 INF] (f75a6bdc622a194a655637dfff468693/1343696cc4fafc27) BlazorLoggingDemo.Services.DemoOutboundClient Outbound dependency call completed for 9223dfcbb5c444989149b1ebc0962d54 with status 200
+[2026-10-14 00:21:39.737 -05:00 INF] (f75a6bdc622a194a655637dfff468693/1343696cc4fafc27) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'HTTP: GET /demo/outbound'
+[2026-10-14 00:21:39.738 -05:00 INF] (f75a6bdc622a194a655637dfff468693/1343696cc4fafc27) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /demo/outbound responded 200 in 71.4948 ms
+[2026-10-14 00:21:39.760 -05:00 INF] (b75a6614dadbebdb7c8fbc51a26a5a2f/a8803388642c98c6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:21:39.800 -05:00 INF] (35b662c9be7465a43c67dcef6bbca8fc/de93272c8bae7bca) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:21:39.800 -05:00 INF] (35b662c9be7465a43c67dcef6bbca8fc/de93272c8bae7bca) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 52431.2042 ms
+[2026-10-14 00:21:39.801 -05:00 INF] (b75a6614dadbebdb7c8fbc51a26a5a2f/a8803388642c98c6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:21:39.801 -05:00 INF] (b75a6614dadbebdb7c8fbc51a26a5a2f/a8803388642c98c6) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 41.2004 ms
+[2026-10-14 00:22:42.525 -05:00 INF] (1a726bc3dc99d38802576a0824fd0a7e/63b968f74609bf06) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:22:42.889 -05:00 INF] (1a726bc3dc99d38802576a0824fd0a7e/63b968f74609bf06) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:22:42.892 -05:00 INF] (1a726bc3dc99d38802576a0824fd0a7e/63b968f74609bf06) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 378.7266 ms
+[2026-10-14 00:22:42.950 -05:00 INF] (8e60afb2898e3cb344943cc9e658832a/2db9592a599ff8db) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.950 -05:00 INF] (9ae9750cbdc9b16400b9ed7c70c6f106/f419a24f68965574) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.950 -05:00 INF] (17f1e561557553770be8aed5e811f377/30fbf1df8481f88d) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.950 -05:00 INF] (e7b43cf48f6343b133c0fe001ac295ec/3df081167a09ecfe) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.950 -05:00 INF] (1b89530e05b6b5c4afab0e93cabdd8e3/8a5bacfc10b1b502) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.963 -05:00 INF] (17f1e561557553770be8aed5e811f377/30fbf1df8481f88d) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.964 -05:00 INF] (17f1e561557553770be8aed5e811f377/30fbf1df8481f88d) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 15.0591 ms
+[2026-10-14 00:22:42.978 -05:00 INF] (1b89530e05b6b5c4afab0e93cabdd8e3/8a5bacfc10b1b502) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.978 -05:00 INF] (8e60afb2898e3cb344943cc9e658832a/2db9592a599ff8db) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.978 -05:00 INF] (1b89530e05b6b5c4afab0e93cabdd8e3/8a5bacfc10b1b502) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 29.7066 ms
+[2026-10-14 00:22:42.978 -05:00 INF] (8e60afb2898e3cb344943cc9e658832a/2db9592a599ff8db) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 29.7793 ms
+[2026-10-14 00:22:42.986 -05:00 INF] (9ae9750cbdc9b16400b9ed7c70c6f106/f419a24f68965574) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.986 -05:00 INF] (e7b43cf48f6343b133c0fe001ac295ec/3df081167a09ecfe) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:42.988 -05:00 INF] (e7b43cf48f6343b133c0fe001ac295ec/3df081167a09ecfe) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 39.5449 ms
+[2026-10-14 00:22:42.988 -05:00 INF] (9ae9750cbdc9b16400b9ed7c70c6f106/f419a24f68965574) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 39.4454 ms
+[2026-10-14 00:22:43.021 -05:00 INF] (d342caf91fe7f37cd737e108c62669e6/4110de12e7f9fbcc) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:43.025 -05:00 INF] (d342caf91fe7f37cd737e108c62669e6/4110de12e7f9fbcc) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:43.025 -05:00 INF] (d342caf91fe7f37cd737e108c62669e6/4110de12e7f9fbcc) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 4.0257 ms
+[2026-10-14 00:22:43.070 -05:00 INF] (a777032474bc70f2637a3ff4fd916a28/77db203599c9e040) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:43.079 -05:00 INF] (a777032474bc70f2637a3ff4fd916a28/77db203599c9e040) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:43.079 -05:00 INF] (a777032474bc70f2637a3ff4fd916a28/77db203599c9e040) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 8.9687 ms
+[2026-10-14 00:22:43.086 -05:00 INF] (2a0a5bda30d11c4c760fe1791ac4f4ea/411b10b96f2b3392) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:22:46.516 -05:00 INF] (aeace0e7f8bb22e8e66238ec53ec54a2/5aff957433f150a2) BlazorLoggingDemo.Components.Pages.Observability Observability info event generated for bc1e000855dd4b13b35ab54af8c416ce
+[2026-10-14 00:24:30.706 -05:00 INF] (3e12ac14e1a290047ebb0463c6b1ca41/078cd20123600762) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:30.734 -05:00 INF] (3e12ac14e1a290047ebb0463c6b1ca41/078cd20123600762) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:30.734 -05:00 INF] (3e12ac14e1a290047ebb0463c6b1ca41/078cd20123600762) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 28.0495 ms
+[2026-10-14 00:24:30.734 -05:00 INF] (2a0a5bda30d11c4c760fe1791ac4f4ea/411b10b96f2b3392) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:30.735 -05:00 INF] (2a0a5bda30d11c4c760fe1791ac4f4ea/411b10b96f2b3392) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 107648.3692 ms
+[2026-10-14 00:24:49.639 -05:00 INF] (a5a4c8d617358e1d97f3df9956b9797d/cfdd43a28a4d9e8c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:24:49.808 -05:00 INF] (a5a4c8d617358e1d97f3df9956b9797d/cfdd43a28a4d9e8c) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:24:49.811 -05:00 INF] (a5a4c8d617358e1d97f3df9956b9797d/cfdd43a28a4d9e8c) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 176.8619 ms
+[2026-10-14 00:24:49.875 -05:00 INF] (7c75e615d851c3ab7044c23ff263aea5/c0150d569158b8b6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.875 -05:00 INF] (4503e164822505529974ad0c47f9524b/ce30858fed5b9244) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.875 -05:00 INF] (ccea93ffb658448a1ecc90fcbc2e4dee/ff643e52669aca26) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.875 -05:00 INF] (8c4ac1fb533afdbc81dab2fe333200f1/f9689d8495b16a27) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.875 -05:00 INF] (c27d71f73c2780e3ecae41176e3bd862/7ede8465c012830e) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.879 -05:00 INF] (8c4ac1fb533afdbc81dab2fe333200f1/f9689d8495b16a27) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.880 -05:00 INF] (8c4ac1fb533afdbc81dab2fe333200f1/f9689d8495b16a27) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 7.5904 ms
+[2026-10-14 00:24:49.888 -05:00 INF] (c27d71f73c2780e3ecae41176e3bd862/7ede8465c012830e) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.888 -05:00 INF] (4503e164822505529974ad0c47f9524b/ce30858fed5b9244) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.888 -05:00 INF] (4503e164822505529974ad0c47f9524b/ce30858fed5b9244) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 15.8382 ms
+[2026-10-14 00:24:49.888 -05:00 INF] (c27d71f73c2780e3ecae41176e3bd862/7ede8465c012830e) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 16.1061 ms
+[2026-10-14 00:24:49.892 -05:00 INF] (7c75e615d851c3ab7044c23ff263aea5/c0150d569158b8b6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.892 -05:00 INF] (ccea93ffb658448a1ecc90fcbc2e4dee/ff643e52669aca26) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.892 -05:00 INF] (7c75e615d851c3ab7044c23ff263aea5/c0150d569158b8b6) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 19.7506 ms
+[2026-10-14 00:24:49.892 -05:00 INF] (ccea93ffb658448a1ecc90fcbc2e4dee/ff643e52669aca26) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 20.0577 ms
+[2026-10-14 00:24:49.918 -05:00 INF] (c5891750d91a3a92cfaa47eee6b19e49/476826aaf90e7a14) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.920 -05:00 INF] (c5891750d91a3a92cfaa47eee6b19e49/476826aaf90e7a14) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.920 -05:00 INF] (c5891750d91a3a92cfaa47eee6b19e49/476826aaf90e7a14) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 2.6872 ms
+[2026-10-14 00:24:49.968 -05:00 INF] (6cd3028c6b68d44893a65c0d49aac879/91fdb4e5d39574e6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.975 -05:00 INF] (6cd3028c6b68d44893a65c0d49aac879/91fdb4e5d39574e6) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:24:49.975 -05:00 INF] (6cd3028c6b68d44893a65c0d49aac879/91fdb4e5d39574e6) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 6.8982 ms
+[2026-10-14 00:24:49.986 -05:00 INF] (0fbef7006209f9dc13988d1fb2cc766d/8c342f8cf6a19712) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:25:10.876 -05:00 INF] (0fbef7006209f9dc13988d1fb2cc766d/8c342f8cf6a19712) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:25:10.877 -05:00 INF] (0fbef7006209f9dc13988d1fb2cc766d/8c342f8cf6a19712) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 20890.7082 ms
+[2026-10-14 00:25:10.902 -05:00 INF] (d9ef9673477ffde7fe8a162b387a4231/7b68008a9f1d6337) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:25:10.916 -05:00 INF] (d9ef9673477ffde7fe8a162b387a4231/7b68008a9f1d6337) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:25:10.916 -05:00 INF] (d9ef9673477ffde7fe8a162b387a4231/7b68008a9f1d6337) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 14.0720 ms
+[2026-10-14 00:27:29.823 -05:00 INF] (9fc17dc44b769eff8415045873769ab1/759f1f306d8e405f) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:27:30.125 -05:00 INF] (9fc17dc44b769eff8415045873769ab1/759f1f306d8e405f) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:27:30.129 -05:00 INF] (9fc17dc44b769eff8415045873769ab1/759f1f306d8e405f) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 317.0228 ms
+[2026-10-14 00:27:30.177 -05:00 INF] (f7ca4716777e2544833c5d50bbb7ec97/a6f72c87145745ac) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.177 -05:00 INF] (27328c84889766fc743f009d5edb02db/5ee72dfbd89c9791) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.177 -05:00 INF] (44d9767dfa6bbdeb80e0706ddf4cf89a/19acd5ceb60e8f03) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.177 -05:00 INF] (5e520e79f5310f19d3b11e3b3fe75fa9/115d1d6914acae22) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.177 -05:00 INF] (6d03fe98427292a608a68a2cf43b256e/8942cec5dd7e104f) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.246 -05:00 INF] (5e520e79f5310f19d3b11e3b3fe75fa9/115d1d6914acae22) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.246 -05:00 INF] (5e520e79f5310f19d3b11e3b3fe75fa9/115d1d6914acae22) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 73.0343 ms
+[2026-10-14 00:27:30.259 -05:00 INF] (27328c84889766fc743f009d5edb02db/5ee72dfbd89c9791) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.259 -05:00 INF] (44d9767dfa6bbdeb80e0706ddf4cf89a/19acd5ceb60e8f03) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.260 -05:00 INF] (44d9767dfa6bbdeb80e0706ddf4cf89a/19acd5ceb60e8f03) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 86.7746 ms
+[2026-10-14 00:27:30.260 -05:00 INF] (27328c84889766fc743f009d5edb02db/5ee72dfbd89c9791) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 86.6148 ms
+[2026-10-14 00:27:30.274 -05:00 INF] (6d03fe98427292a608a68a2cf43b256e/8942cec5dd7e104f) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.274 -05:00 INF] (f7ca4716777e2544833c5d50bbb7ec97/a6f72c87145745ac) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.274 -05:00 INF] (6d03fe98427292a608a68a2cf43b256e/8942cec5dd7e104f) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 101.2769 ms
+[2026-10-14 00:27:30.274 -05:00 INF] (f7ca4716777e2544833c5d50bbb7ec97/a6f72c87145745ac) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 101.3032 ms
+[2026-10-14 00:27:30.304 -05:00 INF] (3dce73d091bb59190e0c15647eb94c5c/63bafba010a3b1b3) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.307 -05:00 INF] (3dce73d091bb59190e0c15647eb94c5c/63bafba010a3b1b3) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.307 -05:00 INF] (3dce73d091bb59190e0c15647eb94c5c/63bafba010a3b1b3) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.4507 ms
+[2026-10-14 00:27:30.354 -05:00 INF] (f1b6691413a5e5fc51def769fff9bd3d/439e5ffa58590193) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.362 -05:00 INF] (f1b6691413a5e5fc51def769fff9bd3d/439e5ffa58590193) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:30.363 -05:00 INF] (f1b6691413a5e5fc51def769fff9bd3d/439e5ffa58590193) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 8.3577 ms
+[2026-10-14 00:27:30.372 -05:00 INF] (be8893b37590fa66d448c5e6b3fc2713/1769c3fb8cd897d1) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:32.244 -05:00 INF] (c8c3ea186de75b4ec2050de6c2c384f7/966e79b026034206) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 1
+[2026-10-14 00:27:52.998 -05:00 INF] (e9a2360baae6bedee5b7715b65651201/46d1900feeba1ae8) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:53.028 -05:00 INF] (e9a2360baae6bedee5b7715b65651201/46d1900feeba1ae8) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:53.029 -05:00 INF] (e9a2360baae6bedee5b7715b65651201/46d1900feeba1ae8) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 30.8922 ms
+[2026-10-14 00:27:53.036 -05:00 INF] (be8893b37590fa66d448c5e6b3fc2713/1769c3fb8cd897d1) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:27:53.037 -05:00 INF] (be8893b37590fa66d448c5e6b3fc2713/1769c3fb8cd897d1) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 22665.1512 ms
+[2026-10-14 00:28:53.967 -05:00 INF] (4581ff0f7b9ad9546596ffd32c25bf04/252d1465b0408ff8) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:28:54.308 -05:00 INF] (4581ff0f7b9ad9546596ffd32c25bf04/252d1465b0408ff8) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:28:54.312 -05:00 INF] (4581ff0f7b9ad9546596ffd32c25bf04/252d1465b0408ff8) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 356.4391 ms
+[2026-10-14 00:28:54.434 -05:00 INF] (3d124a4e9215bebe816b53b85f038478/2c4b5b96bc66d7c5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.434 -05:00 INF] (fd24a7674988ad8d16be80d04cf2c556/a828abfaafc3cb57) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.434 -05:00 INF] (cf6546e9dc05831bbb5035d34cc127d7/ec60394ba9b75ee0) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.434 -05:00 INF] (f0c0ffc54b5dc42fa855266acd104411/f1db64f85f559269) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.434 -05:00 INF] (4052be83b0c942d6306bae0bd62a2675/202a3a48333bb49a) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.479 -05:00 INF] (4052be83b0c942d6306bae0bd62a2675/202a3a48333bb49a) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.479 -05:00 INF] (4052be83b0c942d6306bae0bd62a2675/202a3a48333bb49a) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 47.3645 ms
+[2026-10-14 00:28:54.491 -05:00 INF] (cf6546e9dc05831bbb5035d34cc127d7/ec60394ba9b75ee0) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.492 -05:00 INF] (3d124a4e9215bebe816b53b85f038478/2c4b5b96bc66d7c5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.492 -05:00 INF] (cf6546e9dc05831bbb5035d34cc127d7/ec60394ba9b75ee0) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 59.3970 ms
+[2026-10-14 00:28:54.492 -05:00 INF] (3d124a4e9215bebe816b53b85f038478/2c4b5b96bc66d7c5) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 59.2713 ms
+[2026-10-14 00:28:54.497 -05:00 INF] (fd24a7674988ad8d16be80d04cf2c556/a828abfaafc3cb57) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.497 -05:00 INF] (f0c0ffc54b5dc42fa855266acd104411/f1db64f85f559269) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.497 -05:00 INF] (fd24a7674988ad8d16be80d04cf2c556/a828abfaafc3cb57) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 65.4187 ms
+[2026-10-14 00:28:54.497 -05:00 INF] (f0c0ffc54b5dc42fa855266acd104411/f1db64f85f559269) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 64.9390 ms
+[2026-10-14 00:28:54.528 -05:00 INF] (ff468b4c947bf935805086600a46d67c/73d14bde1ebed794) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.531 -05:00 INF] (ff468b4c947bf935805086600a46d67c/73d14bde1ebed794) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.531 -05:00 INF] (ff468b4c947bf935805086600a46d67c/73d14bde1ebed794) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.1454 ms
+[2026-10-14 00:28:54.573 -05:00 INF] (50d50faff5a84411bedfa38811775446/3428c8a4c269ed7e) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.582 -05:00 INF] (50d50faff5a84411bedfa38811775446/3428c8a4c269ed7e) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:54.582 -05:00 INF] (50d50faff5a84411bedfa38811775446/3428c8a4c269ed7e) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 8.6630 ms
+[2026-10-14 00:28:54.590 -05:00 INF] (31ddf91fdf222839b820ef32320324b6/da7466aff0712595) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:28:57.813 -05:00 INF] (23d409985c2081f71d225427e57b5c04/69751cc7ccfdb618) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 1
+[2026-10-14 00:30:11.865 -05:00 INF] (8df910c321ba78ecee56f5b2182f837e/00b2e038f7652c5e) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 2
+[2026-10-14 00:30:56.712 -05:00 INF] (635c30ced89b7c1e4a149586b64a5413/3ab66aaa2b241dc5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:30:56.743 -05:00 INF] (31ddf91fdf222839b820ef32320324b6/da7466aff0712595) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:30:56.744 -05:00 INF] (635c30ced89b7c1e4a149586b64a5413/3ab66aaa2b241dc5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:30:56.744 -05:00 INF] (31ddf91fdf222839b820ef32320324b6/da7466aff0712595) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 122153.5062 ms
+[2026-10-14 00:30:56.744 -05:00 INF] (635c30ced89b7c1e4a149586b64a5413/3ab66aaa2b241dc5) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 32.4172 ms
+[2026-10-14 00:31:17.341 -05:00 INF] (469539bfb3e6e08138121c7e65abc46d/ea0fb1a9653844f9) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '/ (/)'
+[2026-10-14 00:31:17.666 -05:00 INF] (469539bfb3e6e08138121c7e65abc46d/ea0fb1a9653844f9) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '/ (/)'
+[2026-10-14 00:31:17.671 -05:00 INF] (469539bfb3e6e08138121c7e65abc46d/ea0fb1a9653844f9) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET / responded 200 in 335.6616 ms
+[2026-10-14 00:31:17.776 -05:00 INF] (c53aa0a9410069767efb5e2fe86221b2/5da3d9cac06e2ed5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.777 -05:00 INF] (8c1c5b652327092a371e67fce9e798a2/56f3a3c3d03b7dd8) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.777 -05:00 INF] (efcb8c264227d849114abf6891a4c6c1/29d27882ccba6138) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.777 -05:00 INF] (f5b1a5bcb206bf36fcd393f2d9ed6d48/b1683b766b197c2f) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.777 -05:00 INF] (4bdc08ed5f472b1966465b0671aa1cf5/499ac9a1938089c1) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.786 -05:00 INF] (efcb8c264227d849114abf6891a4c6c1/29d27882ccba6138) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.786 -05:00 INF] (efcb8c264227d849114abf6891a4c6c1/29d27882ccba6138) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_framework/blazor.web.9hsif5t8mt.js responded 304 in 13.7848 ms
+[2026-10-14 00:31:17.797 -05:00 INF] (8c1c5b652327092a371e67fce9e798a2/56f3a3c3d03b7dd8) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.797 -05:00 INF] (4bdc08ed5f472b1966465b0671aa1cf5/499ac9a1938089c1) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.797 -05:00 INF] (8c1c5b652327092a371e67fce9e798a2/56f3a3c3d03b7dd8) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /Components/Layout/ReconnectModal.abdmv1u4y3.razor.js responded 200 in 24.4912 ms
+[2026-10-14 00:31:17.797 -05:00 INF] (4bdc08ed5f472b1966465b0671aa1cf5/499ac9a1938089c1) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /app.khy4lop6wu.css responded 200 in 24.5493 ms
+[2026-10-14 00:31:17.824 -05:00 INF] (c53aa0a9410069767efb5e2fe86221b2/5da3d9cac06e2ed5) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.824 -05:00 INF] (f5b1a5bcb206bf36fcd393f2d9ed6d48/b1683b766b197c2f) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.824 -05:00 INF] (c53aa0a9410069767efb5e2fe86221b2/5da3d9cac06e2ed5) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /BlazorLoggingDemo.buuuey1ty5.styles.css responded 200 in 51.8291 ms
+[2026-10-14 00:31:17.824 -05:00 INF] (f5b1a5bcb206bf36fcd393f2d9ed6d48/b1683b766b197c2f) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 51.9240 ms
+[2026-10-14 00:31:17.854 -05:00 INF] (fdbb50a4de55ed371b551af8cd1ec2c3/d127ee385d90cd44) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.857 -05:00 INF] (fdbb50a4de55ed371b551af8cd1ec2c3/d127ee385d90cd44) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.857 -05:00 INF] (fdbb50a4de55ed371b551af8cd1ec2c3/d127ee385d90cd44) Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /_blazor/initializers responded 200 in 3.3455 ms
+[2026-10-14 00:31:17.904 -05:00 INF] (671e461112c73153c37c6dd066e3a1c9/827b4920d2d639c9) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.914 -05:00 INF] (671e461112c73153c37c6dd066e3a1c9/827b4920d2d639c9) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:17.914 -05:00 INF] (671e461112c73153c37c6dd066e3a1c9/827b4920d2d639c9) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/negotiate responded 200 in 10.0195 ms
+[2026-10-14 00:31:17.920 -05:00 INF] (3918a18a5afc663e03ea56339c039932/b9a75d2f49ada5c3) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:20.613 -05:00 INF] (2e084919b8696624eeb903b96fb76ca3/76c416dcc2e643a0) BlazorLoggingDemo.Components.Pages.Counter Counter incremented to 1
+[2026-10-14 00:31:30.876 -05:00 INF] (3918a18a5afc663e03ea56339c039932/b9a75d2f49ada5c3) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:30.877 -05:00 INF] (3918a18a5afc663e03ea56339c039932/b9a75d2f49ada5c3) Serilog.AspNetCore.RequestLoggingMiddleware HTTP CONNECT /_blazor responded 200 in 12956.4884 ms
+[2026-10-14 00:31:30.902 -05:00 INF] (a18a02b239af52abdeecb659a9609c39/1a625d1f6d8790d7) Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:30.916 -05:00 INF] (a18a02b239af52abdeecb659a9609c39/1a625d1f6d8790d7) Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+[2026-10-14 00:31:30.916 -05:00 INF] (a18a02b239af52abdeecb659a9609c39/1a625d1f6d8790d7) Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /_blazor/disconnect responded 200 in 13.9650 ms
